@@ -102,3 +102,22 @@ example response:
 ```
 OK
 ```
+
+
+
+# Project Structure
+
+This project consists of 3 main directories:
+
+- bank
+- api
+- docs
+
+### bank
+contains the parent Django project
+
+### api
+contains the api app. The business logic for the bank apis can be found inside the /bank/views.py file.
+
+### docs
+contains the routing for the openapi/swagger doc generation.
