@@ -18,7 +18,6 @@ account_request = openapi.Schema(
     type=openapi.TYPE_OBJECT,
     properties={
         'name': openapi.Schema(type=openapi.TYPE_STRING, description='string'),
-        'balance': openapi.Schema(type=openapi.TYPE_NUMBER, description='decimal')
     },
     required=['name', 'balance']
 )
